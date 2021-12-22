@@ -1,0 +1,43 @@
+body {
+    background-color: #add8e6bd;
+    text-align: center;
+  }
+
+p {
+border: 3px solid black;
+outline: #00fcc5 solid 10px;
+margin: 25px;
+padding: 10px;
+text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: arial, sans-serif;
+    width: 100%;  
+}
+th,td {    
+    border: 1px solid black;
+}
+
+.prio.high {
+    background-color:rgba(0, 238, 0, 0.945)
+}
+.prio.medium {
+    background-color: rgb(230, 169, 3);
+}
+.prio.low {
+    background-color: rgb(230, 3, 3);
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
